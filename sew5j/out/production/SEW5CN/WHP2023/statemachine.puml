@@ -1,0 +1,7 @@
+@startuml
+[*] -> LOW
+LOW --> HIGH: S=1 R=0
+LOW --> LOW: *
+HIGH --> LOW: S=0 R=1
+HIGH --> HIGH: *
+@enduml

@@ -1,0 +1,65 @@
+@startuml
+abstract class Component
+class FF
+class Taster
+class LED
+class Input
+
+Input : boolean value
+Input : Component previous
+Input : int previousPin
+Input : get()
+
+Component : connect(Component comp, int Pin, int otherPin)
+Component : addInput(Component comp, int previousPin, int inputNr)
+Component : private setOut(boolean value, int Nr)
+Component : public getOut(int Nr)
+Component : public fetch()
+Component : {abstract} void calc()
+Component : List<Input> Inputs
+Component : boolean[] Outputs
+
+Taster : press()
+FF : calc()
+
+Takt : tick()
+Takt : add(Component ... x)
+Takt : List<Component> comps
+
+Component <|-- Taster
+Component <|-- LED
+Component <|-- FF
+
+@enduml@startuml
+abstract class Component
+class FF
+class Taster
+class LED
+class Input
+
+Input : boolean value
+Input : Component previous
+Input : int previousPin
+Input : get()
+
+Component : connect(Component comp, int Pin, int otherPin)
+Component : addInput(Component comp, int previousPin, int inputNr)
+Component : private setOut(boolean value, int Nr)
+Component : public getOut(int Nr)
+Component : public fetch()
+Component : calc()
+Component : List<Input> Inputs
+Component : boolean[] Outputs
+
+Taster : press()
+FF : calc()
+
+Takt : tick()
+Takt : add(Component ... x)
+Takt : List<Component> comps
+
+Component <|-- Taster
+Component <|-- LED
+Component <|-- FF
+
+@enduml
