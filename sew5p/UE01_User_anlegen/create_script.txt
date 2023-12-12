@@ -1,80 +1,39 @@
-useradd -d /home/klassen/1am -c "Klasse 1AM" -m -g 1am -G cdrom,plugdev,sambashare -s /bin/bash k1am 
-echo '1AM:1AM)165FRH'| chpasswd
-useradd -d /home/klassen/1bm -c "Klasse 1BM" -m -g 1bm -G cdrom,plugdev,sambashare -s /bin/bash k1bm 
-echo '1BM:1BM)365DRE'| chpasswd
-useradd -d /home/klassen/1cm -c "Klasse 1CM" -m -g 1cm -G cdrom,plugdev,sambashare -s /bin/bash k1cm 
-echo '1CM:1CM!379GRM'| chpasswd
-useradd -d /home/klassen/2am -c "Klasse 2AM" -m -g 2am -G cdrom,plugdev,sambashare -s /bin/bash k2am 
-echo '2AM:2AM&359TMP'| chpasswd
-useradd -d /home/klassen/2bm -c "Klasse 2BM" -m -g 2bm -G cdrom,plugdev,sambashare -s /bin/bash k2bm 
-echo '2BM:2BM%376WIT'| chpasswd
-useradd -d /home/klassen/2cm -c "Klasse 2CM" -m -g 2cm -G cdrom,plugdev,sambashare -s /bin/bash k2cm 
-echo '2CM:2CM,275PCH'| chpasswd
-useradd -d /home/klassen/3am -c "Klasse 3AM" -m -g 3am -G cdrom,plugdev,sambashare -s /bin/bash k3am 
-echo '3AM:3AM-375ZOI'| chpasswd
-useradd -d /home/klassen/3bm -c "Klasse 3BM" -m -g 3bm -G cdrom,plugdev,sambashare -s /bin/bash k3bm 
-echo '3BM:3BM)361KAM'| chpasswd
-useradd -d /home/klassen/3cm -c "Klasse 3CM" -m -g 3cm -G cdrom,plugdev,sambashare -s /bin/bash k3cm 
-echo '3CM:3CM)377PRS'| chpasswd
-useradd -d /home/klassen/4am -c "Klasse 4AM" -m -g 4am -G cdrom,plugdev,sambashare -s /bin/bash k4am 
-echo '4AM:4AM^154MAR'| chpasswd
-useradd -d /home/klassen/4bm -c "Klasse 4BM" -m -g 4bm -G cdrom,plugdev,sambashare -s /bin/bash k4bm 
-echo '4BM:4BM^263GRI'| chpasswd
-useradd -d /home/klassen/4cm -c "Klasse 4CM" -m -g 4cm -G cdrom,plugdev,sambashare -s /bin/bash k4cm 
-echo '4CM:4CM=279BUG'| chpasswd
-useradd -d /home/klassen/5am -c "Klasse 5AM" -m -g 5am -G cdrom,plugdev,sambashare -s /bin/bash k5am 
-echo '5AM:5AM-156PLE'| chpasswd
-useradd -d /home/klassen/5bm -c "Klasse 5BM" -m -g 5bm -G cdrom,plugdev,sambashare -s /bin/bash k5bm 
-echo '5BM:5BM-160STW'| chpasswd
-useradd -d /home/klassen/5cm -c "Klasse 5CM" -m -g 5cm -G cdrom,plugdev,sambashare -s /bin/bash k5cm 
-echo '5CM:5CM(354JEN'| chpasswd
-useradd -d /home/klassen/1af -c "Klasse 1AF" -m -g 1af -G cdrom,plugdev,sambashare -s /bin/bash k1af 
-echo '1AF:1AF%372GFO'| chpasswd
-useradd -d /home/klassen/1bf -c "Klasse 1BF" -m -g 1bf -G cdrom,plugdev,sambashare -s /bin/bash k1bf 
-echo '1BF:1BF#272VOL'| chpasswd
-useradd -d /home/klassen/1cf -c "Klasse 1CF" -m -g 1cf -G cdrom,plugdev,sambashare -s /bin/bash k1cf 
-echo '1CF:1CF^209KEG'| chpasswd
-useradd -d /home/klassen/2af -c "Klasse 2AF" -m -g 2af -G cdrom,plugdev,sambashare -s /bin/bash k2af 
-echo '2AF:2AF#357BOG'| chpasswd
-useradd -d /home/klassen/2bf -c "Klasse 2BF" -m -g 2bf -G cdrom,plugdev,sambashare -s /bin/bash k2bf 
-echo '2BF:2BF#219STE'| chpasswd
-useradd -d /home/klassen/3afi -c "Klasse 3AFI" -m -g 3afi -G cdrom,plugdev,sambashare -s /bin/bash k3afi 
-echo '3AFI:3AFI,356HIT'| chpasswd
-useradd -d /home/klassen/3bfn -c "Klasse 3BFN" -m -g 3bfn -G cdrom,plugdev,sambashare -s /bin/bash k3bfn 
-echo '3BFN:3BFN_277BAA'| chpasswd
-useradd -d /home/klassen/4afi -c "Klasse 4AFI" -m -g 4afi -G cdrom,plugdev,sambashare -s /bin/bash k4afi 
-echo '4AFI:4AFI^275/279OPP'| chpasswd
-useradd -d /home/klassen/4bfn -c "Klasse 4BFN" -m -g 4bfn -G cdrom,plugdev,sambashare -s /bin/bash k4bfn 
-echo '4BFN:4BFN)217CER'| chpasswd
-useradd -d /home/klassen/1ai -c "Klasse 1AI" -m -g 1ai -G cdrom,plugdev,sambashare -s /bin/bash k1ai 
-echo '1AI:1AI=254KLE'| chpasswd
-useradd -d /home/klassen/1bi -c "Klasse 1BI" -m -g 1bi -G cdrom,plugdev,sambashare -s /bin/bash k1bi 
-echo '1BI:1BI^371HOL'| chpasswd
-useradd -d /home/klassen/1ci -c "Klasse 1CI" -m -g 1ci -G cdrom,plugdev,sambashare -s /bin/bash k1ci 
-echo '1CI:1CI^265JAV'| chpasswd
-useradd -d /home/klassen/2ai -c "Klasse 2AI" -m -g 2ai -G cdrom,plugdev,sambashare -s /bin/bash k2ai 
-echo '2AI:2AI#378BAY'| chpasswd
-useradd -d /home/klassen/2bi -c "Klasse 2BI" -m -g 2bi -G cdrom,plugdev,sambashare -s /bin/bash k2bi 
-echo '2BI:2BI(363KUS'| chpasswd
-useradd -d /home/klassen/2ci -c "Klasse 2CI" -m -g 2ci -G cdrom,plugdev,sambashare -s /bin/bash k2ci 
-echo '2CI:2CI-271NIC'| chpasswd
-useradd -d /home/klassen/3ai -c "Klasse 3AI" -m -g 3ai -G cdrom,plugdev,sambashare -s /bin/bash k3ai 
-echo '3AI:3AI_260BUC'| chpasswd
-useradd -d /home/klassen/3bi -c "Klasse 3BI" -m -g 3bi -G cdrom,plugdev,sambashare -s /bin/bash k3bi 
-echo '3BI:3BI=360BSB'| chpasswd
-useradd -d /home/klassen/3ci -c "Klasse 3CI" -m -g 3ci -G cdrom,plugdev,sambashare -s /bin/bash k3ci 
-echo '3CI:3CI.225BRE'| chpasswd
-useradd -d /home/klassen/4ai -c "Klasse 4AI" -m -g 4ai -G cdrom,plugdev,sambashare -s /bin/bash k4ai 
-echo '4AI:4AI(261DAZ'| chpasswd
-useradd -d /home/klassen/4bi -c "Klasse 4BI" -m -g 4bi -G cdrom,plugdev,sambashare -s /bin/bash k4bi 
-echo '4BI:4BI&257OLI'| chpasswd
-useradd -d /home/klassen/4cn -c "Klasse 4CN" -m -g 4cn -G cdrom,plugdev,sambashare -s /bin/bash k4cn 
-echo '4CN:4CN&276SDO'| chpasswd
-useradd -d /home/klassen/5ax -c "Klasse 5AX" -m -g 5ax -G cdrom,plugdev,sambashare -s /bin/bash k5ax 
-echo '5AX:5AX,278FIN'| chpasswd
-useradd -d /home/klassen/5bi -c "Klasse 5BI" -m -g 5bi -G cdrom,plugdev,sambashare -s /bin/bash k5bi 
-echo '5BI:5BI,256NUS'| chpasswd
-useradd -d /home/klassen/5cn -c "Klasse 5CN" -m -g 5cn -G cdrom,plugdev,sambashare -s /bin/bash k5cn 
-echo '5CN:5CN^259SLT'| chpasswd
-useradd -d /home/klassen/1ao -c "Klasse 1AO" -m -g 1ao -G cdrom,plugdev,sambashare -s /bin/bash k1ao 
-echo '1AO:1AO&217KIT'| chpasswd
+useradd -d /home/klassen/k2cn/De_Junious -c "Maximilian De_Junious" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash de_junious 
+useradd -d /home/klassen/k3bn/Nunez_Gomez -c "Ramon Nunez_Gomez" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash nunez_gomez 
+useradd -d /home/klassen/k1an/Uellaegoess -c "Uelkue_Oemer Uellaegoess" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash uellaegoess 
+useradd -d /home/klassen/k4cn/Lanpher -c "Isis Lanpher" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash lanpher 
+useradd -d /home/klassen/k2an/Galvin -c "Maximilian Galvin" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash galvin 
+useradd -d /home/klassen/k4cn/Laspina -c "Jannette Laspina" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash laspina 
+useradd -d /home/klassen/k3cn/Dodich -c "Marg Dodich" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash dodich 
+useradd -d /home/klassen/k2an/Bannowsky -c "Carisa Bannowsky" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash bannowsky 
+useradd -d /home/klassen/k4cn/Waisath -c "David Waisath" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash waisath 
+useradd -d /home/klassen/k2cn/von_Reddig-Piette -c "Paulette von_Reddig-Piette" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash von_reddig-piette 
+useradd -d /home/klassen/k2an/Latona -c "Kirby Latona" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash latona 
+useradd -d /home/klassen/k2bn/Homewood -c "Reed Homewood" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash homewood 
+useradd -d /home/klassen/k5cn/Pallafor-Zedian -c "Blair Pallafor-Zedian" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash pallafor-zedian 
+useradd -d /home/klassen/k2cn/Senemounnarat-Quillian -c "Lon Senemounnarat-Quillian" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash senemounnarat-quillian 
+useradd -d /home/klassen/k2bn/Isaac -c "Vada Isaac" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash isaac 
+useradd -d /home/klassen/k4bn/Plancarte -c "Jeanett Plancarte" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash plancarte 
+useradd -d /home/lehrer/Berteotti-Stirn -c "Alex Berteotti-Stirn" -m -g teacher -G cdrom,plugdev,sambashare -s /bin/bash berteotti-stirn 
+useradd -d /home/klassen/k3an/Strycker -c "Robyn Strycker" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash strycker 
+useradd -d /home/klassen/k3bn/Von_Verrill -c "Camille Von_Verrill" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash von_verrill 
+useradd -d /home/klassen/k4cn/Deschner -c "Franz_Michael_Leopold Deschner" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash deschner 
+useradd -d /home/lehrer/Franzi -c "Veola Franzi" -m -g teacher -G cdrom,plugdev,sambashare -s /bin/bash franzi 
+useradd -d /home/klassen/k3cn/Cringle -c "Chantelle Cringle" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash cringle 
+useradd -d /home/klassen/k5bn/Kosh -c "Britney Kosh" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash kosh 
+useradd -d /home/klassen/k4bn/Derouchie -c "Clayton Derouchie" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash derouchie 
+useradd -d /home/klassen/k5bn/Doutt -c "Beverlee Doutt" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash doutt 
+useradd -d /home/klassen/k1bn/Munley -c "Alma Munley" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash munley 
+useradd -d /home/klassen/k5an/Dornbos -c "Thad Dornbos" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash dornbos 
+useradd -d /home/klassen/k2cn/Mahala -c "Arvilla Mahala" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash mahala 
+useradd -d /home/lehrer/Ellingwood -c "Mirza Ellingwood" -m -g teacher -G cdrom,plugdev,sambashare -s /bin/bash ellingwood 
+useradd -d /home/klassen/k3an/de_Cardinalli-Sciola -c "Francie de_Cardinalli-Sciola" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash de_cardinalli-sciola 
+useradd -d /home/lehrer/Gundry -c "IRENEE Gundry" -m -g teacher -G cdrom,plugdev,sambashare -s /bin/bash gundry 
+useradd -d /home/klassen/k3cn/Pinedo -c "IRENEE Pinedo" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash pinedo 
+useradd -d /home/klassen/k2cn/Faivre -c "CHEL'AH Faivre" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash faivre 
+useradd -d /home/klassen/k1bn/Pinsky -c "Mirza Pinsky" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash pinsky 
+useradd -d /home/klassen/k1bn/Pinsky -c "Francie Pinsky" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash pinsky1 
+useradd -d /home/klassen/k1bn/Pinsky -c "Goldie Pinsky" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash pinsky2 
+useradd -d /home/klassen/k1bn/Pinsky -c "A-nother Pinsky" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash pinsky3 
+useradd -d /home/klassen/k2an/Norlien -c "Ανδρομεδη Norlien" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash norlien 
+useradd -d /home/klassen/k1bn/Preato -c "חלאה Preato" -m -g student -G cdrom,plugdev,sambashare -s /bin/bash preato 
