@@ -5,8 +5,12 @@ from logging.handlers import RotatingFileHandler
 from sys import stdout as out
 from openpyxl import load_workbook
 
-
 def generate_script(filepath):
+    """
+    generiert ein Script welches User für jede Klasse erstellt
+    :param filepath: Pfad des Excelsheets mit den Klassen
+    :return: ein script zum erstellen der user und eines zum löschen
+    """
     with open('create_script.txt', 'w') as file:
         del_script = open('delete_script.txt', 'w')
         logins = open('logins.txt', 'w')
@@ -22,7 +26,7 @@ def generate_script(filepath):
             }
             pw = f"{classes['class']}:{classes['class']}{random.choice('!%&(),._-=^#')}{classes['RaumNr']}{classes['KV']}"
             file.write(f"useradd -d /home/klassen/{classes['class'].lower()} -c \"Klasse {classes['class']}\" -m -g {classes['class'].lower()} -G cdrom,plugdev,sambashare -s /bin/bash k{classes['class'].lower()} \n")
-            file.write(f"echo '{pw}'| chpasswd\n")
+            file.write(f"echo '{pw}' | chpasswd\n")
             logger.debug(f"User k{classes['class'].lower()} created")
             del_script.write(f"userdel k{classes['class'].lower()} \n")
             logger.debug(f"delete script for user k{classes['class'].lower()} created")

@@ -1,40 +1,39 @@
-k1am: 1AM:1AM)165FRH 
-k1bm: 1BM:1BM)365DRE 
-k1cm: 1CM:1CM!379GRM 
-k2am: 2AM:2AM&359TMP 
-k2bm: 2BM:2BM%376WIT 
-k2cm: 2CM:2CM,275PCH 
-k3am: 3AM:3AM-375ZOI 
-k3bm: 3BM:3BM)361KAM 
-k3cm: 3CM:3CM)377PRS 
-k4am: 4AM:4AM^154MAR 
-k4bm: 4BM:4BM^263GRI 
-k4cm: 4CM:4CM=279BUG 
-k5am: 5AM:5AM-156PLE 
-k5bm: 5BM:5BM-160STW 
-k5cm: 5CM:5CM(354JEN 
-k1af: 1AF:1AF%372GFO 
-k1bf: 1BF:1BF#272VOL 
-k1cf: 1CF:1CF^209KEG 
-k2af: 2AF:2AF#357BOG 
-k2bf: 2BF:2BF#219STE 
-k3afi: 3AFI:3AFI,356HIT 
-k3bfn: 3BFN:3BFN_277BAA 
-k4afi: 4AFI:4AFI^275/279OPP 
-k4bfn: 4BFN:4BFN)217CER 
-k1ai: 1AI:1AI=254KLE 
-k1bi: 1BI:1BI^371HOL 
-k1ci: 1CI:1CI^265JAV 
-k2ai: 2AI:2AI#378BAY 
-k2bi: 2BI:2BI(363KUS 
-k2ci: 2CI:2CI-271NIC 
-k3ai: 3AI:3AI_260BUC 
-k3bi: 3BI:3BI=360BSB 
-k3ci: 3CI:3CI.225BRE 
-k4ai: 4AI:4AI(261DAZ 
-k4bi: 4BI:4BI&257OLI 
-k4cn: 4CN:4CN&276SDO 
-k5ax: 5AX:5AX,278FIN 
-k5bi: 5BI:5BI,256NUS 
-k5cn: 5CN:5CN^259SLT 
-k1ao: 1AO:1AO&217KIT 
+kmaximilian: Maximilian:Maximilian.De Juniousstudent 
+kramón: Ramón:Ramón(Núñez Gómezstudent 
+külkü ömer: Ülkü Ömer:Ülkü Ömer-Üllägößstudent 
+kisis: Isis:Isis#Lanpherstudent 
+kmaximilian: Maximilian:Maximilian=Galvinstudent 
+kjannette: Jannette:Jannette#Laspinastudent 
+kmarg: Marg:Marg#Dodichstudent 
+kcarisa: Carisa:Carisa&Bannowskystudent 
+kdavid: David:David!Waisathstudent 
+kpaulette: Paulette:Paulette-von Reddig-Piettestudent 
+kkirby: Kirby:Kirby&Latonastudent 
+kreed: Reed:Reed=Homewoodstudent 
+kblair: Blair:Blair(Pallafor-Zedianstudent 
+klon: Lon:Lon^Senemounnarat-Quillianstudent 
+kvada: Vada:Vada(Isaacstudent 
+kjeanett: Jeanett:Jeanett(Plancartestudent 
+kalex: Alex:Alex!Berteotti-Stirnteacher 
+krobyn: Robyn:Robyn-Stryckerstudent 
+kcamille: Camille:Camille-Von Verrillstudent 
+kfranz michael leopold: Franz Michael Leopold:Franz Michael Leopold)Deschnerstudent 
+kveola: Veola:Veola-Franziteacher 
+kchantelle: Chantelle:Chantelle!Cringlestudent 
+kbritney: Britney:Britney,Koshstudent 
+kclayton: Clayton:Clayton_Derouchiestudent 
+kbeverlee: Beverlee:Beverlee,Douttstudent 
+kalma: Alma:Alma#Munleystudent 
+kthad: Thad:Thad!Dornbosstudent 
+karvilla: Arvilla:Arvilla&Mahalastudent 
+kmirza: Mirza:Mirza#Ellingwoodteacher 
+kfrancie: Francie:Francie!de Cardinalli-Sciolastudent 
+kirénée: IRÉNÉE:IRÉNÉE&Gundryteacher 
+kirénée: IRÉNÉE:IRÉNÉE&Pinedostudent 
+kchel'ah: CHEL'AH:CHEL'AH_Faivrestudent 
+kmirza: Mirza:Mirza)Pinskystudent 
+kfrancie: Francie:Francie_Pinskystudent 
+kgoldie: Goldie:Goldie&Pinskystudent 
+ka-nother: A-nother:A-nother!Pinskystudent 
+kανδρομέδη: Ανδρομέδη:Ανδρομέδη=Norlienstudent 
+kחֶלְאָה: חֶלְאָה:חֶלְאָה!Preatostudent 
