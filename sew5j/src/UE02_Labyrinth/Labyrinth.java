@@ -138,13 +138,18 @@ public class Labyrinth {
 
 		lab[zeile][spalte] = FILLCHAR;
 		int n1 = sucheAlle(zeile-1, spalte, lab);
-		int n2 = sucheAlle(zeile+1, spalte, lab);
-		int n3 = sucheAlle(zeile, spalte-1, lab);
-		int n4 = sucheAlle(zeile, spalte+1, lab);
+		n1 += sucheAlle(zeile+1, spalte, lab);
+		n1 += sucheAlle(zeile, spalte-1, lab);
+		n1 += sucheAlle(zeile, spalte+1, lab);
 		lab[zeile][spalte] = ' ';
-		return n1 + n2 + n3 + n4;
+		return n1;
 	}
 
+	/**
+	 * Liest Labyrinth aus Datei ein
+	 * @param filepath Datei aus der Labyrinth eingelesen werden sollen
+	 * @return char[][] mit Labyrinth
+	 */
 	public static char[][] readFile(String filepath){
 		try {
 			return fromStrings(Files.readAllLines(Paths.get(filepath)).toArray(new String[0]));
