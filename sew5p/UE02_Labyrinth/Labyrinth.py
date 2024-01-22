@@ -21,7 +21,7 @@ def print_labyrinth(lab: [[str]]) -> None:
         print("".join(line))
 
 
-def suchen(zeile: int, spalte: int, lab: [[str]], should_print: bool, delay: int):
+def suchen(zeile: int, spalte: int, lab: [[str]], should_print: bool, delay: int) -> bool:
     """
     Löst Labyrinth
     :param zeile: Startzeile
@@ -47,7 +47,7 @@ def suchen(zeile: int, spalte: int, lab: [[str]], should_print: bool, delay: int
     return n1 or n2 or n3 or n4
 
 
-def sucheAlle(zeile: int, spalte: int, lab: [[str]], should_print: bool, delay: int):
+def sucheAlle(zeile: int, spalte: int, lab: [[str]], should_print: bool, delay: int) -> int:
     """
     sucht alle möglichen Wege zu einem Ausgang
     :param zeile: Startzeile
@@ -75,11 +75,11 @@ def sucheAlle(zeile: int, spalte: int, lab: [[str]], should_print: bool, delay: 
 
 parser = argparse.ArgumentParser()
 parser.add_argument("filename", help="file containing the labyrinth to solve")
-parser.add_argument("-x", "--xstart", help="x-coordinate to start")
-parser.add_argument("-y", "--ystart", help="y-coordinate to start")
+parser.add_argument("-x", "--xstart", help="x-coordinate to start", default=5)
+parser.add_argument("-y", "--ystart", help="y-coordinate to start", default=5)
 parser.add_argument("-p", "--print", help="print output of every solution", action="store_true")
 parser.add_argument("-t", "--time", help="print total calculation time (in milliseconds)", action="store_true")
-parser.add_argument("-d", "--delay", help="delay after printing a solution (in milliseconds)")
+parser.add_argument("-d", "--delay", help="delay after printing a solution (in milliseconds)", default=50)
 args = parser.parse_args()
 
 lab = read_from_file(args.filename)

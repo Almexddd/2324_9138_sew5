@@ -17,7 +17,7 @@ from openpyxl import load_workbook
 from openpyxl.workbook import Workbook
 
 
-def sonderzeichen(s: str):
+def sonderzeichen(s: str) -> str:
     """
     Ersetzt Umlaute, ß und Leerzeichen
     :param s: String in dem Sonderzeichen ersetzt werden sollen
@@ -38,19 +38,20 @@ def sonderzeichen(s: str):
     return s
 
 
-def generate_script(filepath):
+def generate_script(filepath) -> None:
     """
     generiert das Script zum erstellen der User
     :param filepath: Pfad des Excelsheets, aus dem die User erstellt werden sollen
     :return: ein Script zum anlegen der User und eines zum löschen
     """
     with open('create_script.txt', 'w') as file:
+        logger.info(f'Excel file {filepath}')
         wb = load_workbook(filepath)
         ws = wb[wb.sheetnames[0]]
         cnt = 1
         user_cnt = dict()
         out = Workbook()
-        ws_out =  out.active
+        ws_out = out.active
         for user in ws.iter_rows(min_row=2):
             if user[0].value is None:
                 break
@@ -72,7 +73,8 @@ def generate_script(filepath):
                     file.write(f"useradd -d /home/klassen/k{data['class'].lower()}/{data['lastname']} -c \"{data['firstname']} {data['lastname']}\" -m -g {data['group']} -G cdrom,plugdev,sambashare -s /bin/bash {data['lastname'].lower()} \n")
                 ws_out[f'A{cnt}'] = f'{data["lastname"].lower()}'
                 ws_out[f'B{cnt}'] = f'{pw}'
-                logger.debug(f'User {data["lastname"].lower()} added')
+                logger.debug(f"{data['firstname']} {data['lastname']} {data['class']}")
+                logger.info(f'User {data["lastname"].lower()} added')
                 user_cnt[data['lastname']] = 1
 
             else:
@@ -91,13 +93,13 @@ def generate_script(filepath):
 parser = argparse.ArgumentParser()
 parser.add_argument("filepath")
 parser.add_argument("-v", "--verbosity", help="increase output verbosity", action="store_true")
-parser.add_argument("-q", "--quite")
+parser.add_argument("-q", "--quiet")
 args = parser.parse_args()
 
 logging.basicConfig(level=logging.DEBUG if args.verbosity else logging.WARNING)
 logger = logging.getLogger()
 handler = RotatingFileHandler('logfile.log', maxBytes=10000, backupCount=5)
-handler.setLevel(logging.DEBUG if args.verbosity else logging.WARNING)
+handler.setLevel(logging.DEBUG if args.verbosity else logging.WARNING if args.quiet else logging.INFO)
 logger.addHandler(handler)
 stream_handler = logging.StreamHandler(out)
 stream_handler.setLevel(logging.INFO)

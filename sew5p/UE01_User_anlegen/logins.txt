@@ -1,39 +1,40 @@
-kmaximilian: Maximilian:Maximilian.De Juniousstudent 
-kramón: Ramón:Ramón(Núñez Gómezstudent 
-külkü ömer: Ülkü Ömer:Ülkü Ömer-Üllägößstudent 
-kisis: Isis:Isis#Lanpherstudent 
-kmaximilian: Maximilian:Maximilian=Galvinstudent 
-kjannette: Jannette:Jannette#Laspinastudent 
-kmarg: Marg:Marg#Dodichstudent 
-kcarisa: Carisa:Carisa&Bannowskystudent 
-kdavid: David:David!Waisathstudent 
-kpaulette: Paulette:Paulette-von Reddig-Piettestudent 
-kkirby: Kirby:Kirby&Latonastudent 
-kreed: Reed:Reed=Homewoodstudent 
-kblair: Blair:Blair(Pallafor-Zedianstudent 
-klon: Lon:Lon^Senemounnarat-Quillianstudent 
-kvada: Vada:Vada(Isaacstudent 
-kjeanett: Jeanett:Jeanett(Plancartestudent 
-kalex: Alex:Alex!Berteotti-Stirnteacher 
-krobyn: Robyn:Robyn-Stryckerstudent 
-kcamille: Camille:Camille-Von Verrillstudent 
-kfranz michael leopold: Franz Michael Leopold:Franz Michael Leopold)Deschnerstudent 
-kveola: Veola:Veola-Franziteacher 
-kchantelle: Chantelle:Chantelle!Cringlestudent 
-kbritney: Britney:Britney,Koshstudent 
-kclayton: Clayton:Clayton_Derouchiestudent 
-kbeverlee: Beverlee:Beverlee,Douttstudent 
-kalma: Alma:Alma#Munleystudent 
-kthad: Thad:Thad!Dornbosstudent 
-karvilla: Arvilla:Arvilla&Mahalastudent 
-kmirza: Mirza:Mirza#Ellingwoodteacher 
-kfrancie: Francie:Francie!de Cardinalli-Sciolastudent 
-kirénée: IRÉNÉE:IRÉNÉE&Gundryteacher 
-kirénée: IRÉNÉE:IRÉNÉE&Pinedostudent 
-kchel'ah: CHEL'AH:CHEL'AH_Faivrestudent 
-kmirza: Mirza:Mirza)Pinskystudent 
-kfrancie: Francie:Francie_Pinskystudent 
-kgoldie: Goldie:Goldie&Pinskystudent 
-ka-nother: A-nother:A-nother!Pinskystudent 
-kανδρομέδη: Ανδρομέδη:Ανδρομέδη=Norlienstudent 
-kחֶלְאָה: חֶלְאָה:חֶלְאָה!Preatostudent 
+k1am: 1AM=165.FRH! 
+k1bm: 1BM^365=DRE, 
+k1cm: 1CM!379^GRM& 
+k2am: 2AM!359!TMP^ 
+k2bm: 2BM-376(WIT% 
+k2cm: 2CM(275=PCH( 
+k3am: 3AM%375^ZOI& 
+k3bm: 3BM_361(KAM) 
+k3cm: 3CM^377!PRS. 
+k4am: 4AM)154(MAR& 
+k4bm: 4BM.263!GRI# 
+k4cm: 4CM_279_BUG( 
+k5am: 5AM.156%PLE. 
+k5bm: 5BM!160,STW% 
+k5cm: 5CM#354^JEN_ 
+k1af: 1AF!372_GFO# 
+k1bf: 1BF.272,VOL! 
+k1cf: 1CF(209&KEG% 
+k2af: 2AF!357-BOG& 
+k2bf: 2BF_219&STE_ 
+k3afi: 3AFI^356!HIT^ 
+k3bfn: 3BFN-277_BAA= 
+k4afi: 4AFI!275/279_OPP. 
+k4bfn: 4BFN=217#CER. 
+k1ai: 1AI_254-KLE( 
+k1bi: 1BI#371_HOL& 
+k1ci: 1CI#265,JAV, 
+k2ai: 2AI,378%BAY, 
+k2bi: 2BI=363#KUS( 
+k2ci: 2CI#271!NIC_ 
+k3ai: 3AI&260^BUC% 
+k3bi: 3BI^360-BSB( 
+k3ci: 3CI-225(BRE# 
+k4ai: 4AI.261,DAZ# 
+k4bi: 4BI!257_OLI- 
+k4cn: 4CN,276&SDO^ 
+k5ax: 5AX%278(FIN& 
+k5bi: 5BI=256#NUS& 
+k5cn: 5CN=259^SLT, 
+k1ao: 1AO_217=KIT& 

@@ -5,7 +5,7 @@ from logging.handlers import RotatingFileHandler
 from sys import stdout as out
 from openpyxl import load_workbook
 
-def generate_script(filepath):
+def generate_script(filepath) -> None:
     """
     generiert ein Script welches User für jede Klasse erstellt
     :param filepath: Pfad des Excelsheets mit den Klassen
@@ -24,7 +24,7 @@ def generate_script(filepath):
                 "RaumNr": a[1].value,
                 "KV": a[2].value
             }
-            pw = f"{classes['class']}:{classes['class']}{random.choice('!%&(),._-=^#')}{classes['RaumNr']}{classes['KV']}"
+            pw = f"{classes['class']}{random.choice('!%&(),._-=^#')}{classes['RaumNr']}{random.choice('!%&(),._-=^#')}{classes['KV']}{random.choice('!%&(),._-=^#')}"
             file.write(f"useradd -d /home/klassen/{classes['class'].lower()} -c \"Klasse {classes['class']}\" -m -g {classes['class'].lower()} -G cdrom,plugdev,sambashare -s /bin/bash k{classes['class'].lower()} \n")
             file.write(f"echo '{pw}' | chpasswd\n")
             logger.debug(f"User k{classes['class'].lower()} created")
