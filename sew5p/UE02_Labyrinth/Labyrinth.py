@@ -42,14 +42,13 @@ def sucheAlle(zeile: int, spalte: int, lab: [[str]]):
     lab[zeile][spalte] = ' '
     return n1
 
-print_labyrinth(read_from_file("l1.txt"))
-print(sucheAlle(5, 5, read_from_file('./l1.txt')))
-
 parser = argparse.ArgumentParser()
 parser.add_argument("filename", help="file containing the labyrinth to solve")
-parser.add_argument("-h", "--help", help="show this help message and exit")
 parser.add_argument("-x", "--xstart", help="x-coordinate to start")
 parser.add_argument("-y", "--ystart", help="y-coordinate to start")
 parser.add_argument("-p", "--print", help="print output of every solution",action="store_true")
-parser.add_argument("-d", "--delay", help="delay after printing a solution")
+parser.add_argument("-t", "--time", help="print total calculation time (in milliseconds)")
+parser.add_argument("-d", "--delay", help="delay after printing a solution (in milliseconds)")
 args = parser.parse_args()
+if args.filename and args.xstart and args.ystart:
+    solution = 
