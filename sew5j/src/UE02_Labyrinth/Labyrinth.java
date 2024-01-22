@@ -1,6 +1,10 @@
 package UE02_Labyrinth;
 //TODO: Mein Name in der Javadoc
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
 
@@ -141,11 +145,22 @@ public class Labyrinth {
 		return n1 + n2 + n3 + n4;
 	}
 
+	public static char[][] readFile(String filepath){
+		try {
+			return fromStrings(Files.readAllLines(Paths.get(filepath)).toArray(new String[0]));
+		}
+		catch(IOException e){
+			e.printStackTrace();
+		}
+		return new char[][]{};
+	}
+
 	public static void main(String[] args) throws InterruptedException {
 		char[][] labyrinth = fromStrings(maps[2]);
 		printLabyrinth(labyrinth);
 		System.out.println("Ausgang gefunden: " + (suchen(5, 5, labyrinth) ? "ja" : "nein"));
 		System.out.println("Anzahl Wege: " + sucheAlle(5, 5, labyrinth));
+		printLabyrinth(readFile("/home/alex/SEW5CN/sew5j/src/UE02_Labyrinth/l1.txt"));
 	}
 
 }
