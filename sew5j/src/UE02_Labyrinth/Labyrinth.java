@@ -103,7 +103,7 @@ public class Labyrinth {
 	 */
 	public static boolean suchen(int zeile, int spalte, char[][] lab) throws InterruptedException {
 		switch (lab[zeile][spalte]) {
-			case 'A', 'a':
+			case 'A':
 				printLabyrinth(lab);
 				return true;
 			case '#', FILLCHAR:
@@ -129,7 +129,7 @@ public class Labyrinth {
 	 */
 	public static int sucheAlle(int zeile, int spalte, char[][] lab) throws InterruptedException {
 		switch (lab[zeile][spalte]) {
-			case 'A', 'a':
+			case 'A':
 				printLabyrinth(lab);
 				return 1;
 			case '#', FILLCHAR:
