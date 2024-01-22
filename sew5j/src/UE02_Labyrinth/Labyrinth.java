@@ -123,7 +123,7 @@ public class Labyrinth {
 	 * Sucht alle möglichen Wege
 	 * @param zeile Startzeile
 	 * @param spalte Startspalte
-	 * @param lab das zu lösense Labyrinth
+	 * @param lab das zu lösende Labyrinth
 	 * @return 0 wenn Rand, 1 wenn Ausgang, Summe aller gefundenen Ausgänge wenn alle gefunden wurden
 	 * @throws InterruptedException
 	 */
@@ -165,7 +165,7 @@ public class Labyrinth {
 		printLabyrinth(labyrinth);
 		System.out.println("Ausgang gefunden: " + (suchen(5, 5, labyrinth) ? "ja" : "nein"));
 		System.out.println("Anzahl Wege: " + sucheAlle(5, 5, labyrinth));
-		printLabyrinth(readFile("/home/alex/SEW5CN/sew5j/src/UE02_Labyrinth/l1.txt"));
+		printLabyrinth(fromStrings(maps[2]));
 	}
 
 }
