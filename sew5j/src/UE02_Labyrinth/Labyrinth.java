@@ -1,5 +1,4 @@
 package UE02_Labyrinth;
-//TODO: Mein Name in der Javadoc
 
 import java.io.BufferedReader;
 import java.io.IOException;
